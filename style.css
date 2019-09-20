@@ -1,0 +1,19 @@
+.item{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+
+.square {
+    border: 1px solid black;
+    box-sizing: border-box;	
+}
+
+.container {
+    display: flex;
+    border: 3px solid rgb(245, 11, 11);
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    padding: 0;
+}

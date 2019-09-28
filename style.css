@@ -3,11 +3,6 @@
     box-sizing: border-box;
 }
 
-.square {
-    border: 1px solid black;
-    box-sizing: border-box;	
-}
-
 .container {
     display: flex;
     height: 500px;
@@ -58,4 +53,16 @@ footer{
 
 body{
     background-color: deepskyblue;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 330px;
+        height: 330px;
+    }
+
+    .buttons > button{
+        margin-left: 9px;
+        padding: 2px;
+    }
 }

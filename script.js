@@ -51,6 +51,9 @@ const reset = () => {
 
 
 window.addEventListener('DOMContentLoaded', ()=>{
+    if(screen.width < 1200){
+        alert('This page is best viewed on desktop browsers!');
+    }
     createDiv(16)
     draw()
 })
